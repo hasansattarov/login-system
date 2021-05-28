@@ -1,0 +1,93 @@
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0px;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.right-side {
+    display: flex;
+}
+
+.nav-wrapper>.right-side>div {
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.active-nav-link {
+    border-bottom: 1px solid white;
+}
+
+.active-nav-link a {
+    color: white !important;
+}
+
+.nav-link-wrapper a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+    border-bottom: 1px solid white;
+}
+
+.nav-link-wrapper a:hover {
+    color: white;
+}
+
+.signup-form-form {
+    margin-left: 485px;
+    text-align: center;
+    display: flex;
+    padding: 38px;
+}
+
+.signup-form-form2 {
+    margin-left: 485px;
+    text-align: center;
+    display: flex;
+    padding: 38px;
+}
+
+input[type=text],
+select {
+    width: 500px;
+    padding: 14px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=password] {
+    width: 100%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
