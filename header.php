@@ -9,14 +9,6 @@
     <meta charset="utf-8" />
     <title>Main Page</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-        body {
-            background-image: url('images/background.svg');
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: cover;
-        }
-    </style>
 </head>
 
 <body>
